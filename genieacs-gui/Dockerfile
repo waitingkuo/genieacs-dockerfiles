@@ -14,4 +14,4 @@ RUN cp config/users-sample.yml config/users.yml
 
 RUN bundle
 
-CMD ["rails", "s"]
+CMD ["rails", "s", "-b", "0.0.0.0"]
